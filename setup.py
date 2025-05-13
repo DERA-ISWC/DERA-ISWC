@@ -41,7 +41,7 @@ setup(
     packages=find_packages(include=['aligncraft', 'aligncraft.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/DERA-ISWC/DEAA-ISWC.git',
+    url='https://github.com/DERA-ISWC/DERA-ISWC.git',
     version='0.1.0',
     zip_safe=False,
 )
