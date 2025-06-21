@@ -9,7 +9,7 @@ DERA is a dense entity retrieval framework for EA, leveraging language models to
 Ensure your Python version is 3.6 or higher. It is recommended to install dependencies listed in the `requirements.txt` file:
 
 ```bash
-git clone https://github.com/YiMingGuan/DERA.git
+https://github.com/DERA-ISWC/DERA-ISWC.git
 cd aligncraft
 pip install -r requirements.txt
 pip install -e .
@@ -19,10 +19,15 @@ pip install -e .
 
 ## Environment & Hardware
 
-This project was tested using the following setup:
-
-- **Python**: 3.6+
-- **GPU**: 1× NVIDIA A800 40GB
+- This project was developed and tested with the following environment and hardware specifications:
+  - **Python Version**: 3.6 or higher
+  - **GPU (Recommended for Training)**:
+    - **Entity Verbalization**: 8 × NVIDIA A800 40GB GPUs
+    - **Entity Retrieval & Reranking**: 2 × NVIDIA A800 40GB GPUs
+  - **Training Optimizations**:
+    - DeepSpeed (Zero Stage 3)
+    - Gradient Checkpointing
+    - Flash Attention v2
 
 ------
 
