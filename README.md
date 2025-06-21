@@ -22,8 +22,8 @@ pip install -e .
 - This project was developed and tested with the following environment and hardware specifications:
   - **Python Version**: 3.6 or higher
   - **GPU (Recommended for Training)**:
-    - **Entity Verbalization**: 8 × NVIDIA A800 40GB GPUs
-    - **Entity Retrieval & Reranking**: 2 × NVIDIA A800 40GB GPUs
+    - **Entity Verbalization**: 8 × NVIDIA A800 GPUs
+    - **Entity Retrieval & Reranking**: 2 × NVIDIA A800 GPUs
   - **Training Optimizations**:
     - DeepSpeed (Zero Stage 3)
     - Gradient Checkpointing
